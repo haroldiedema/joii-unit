@@ -1,0 +1,33 @@
+{
+  "name": "joii-unit",
+  "version": "0.1.0",
+  "description": "UnitTest Framework for JOII-based applications",
+  "author": "Harold Iedema",
+  "license": "MIT",
+  "main": "dist/joii-unit.js",
+  "dependencies": {
+    "cli-color": "^0.3.2",
+    "joii": "^3.0.6"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-concat": "~0.5.0"
+  },
+  "scripts": {
+    "test": "grunt && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haroldiedema/joii-unit.git"
+  },
+  "keywords": [
+    "joii",
+    "inheritance",
+    "oop"
+  ],
+  "bugs": {
+    "url": "https://github.com/haroldiedema/joii-unit/issues"
+  },
+  "homepage": "http://joii.harold.info"
+}
